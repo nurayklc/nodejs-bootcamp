@@ -1,0 +1,161 @@
+{
+  "employees": [
+    {
+      "id": 4,
+      "first_name": "Lucie",
+      "last_name": "Scalera",
+      "email": "lscalera3@quantcast.com",
+      "gender": "Male",
+      "role_id": 3
+    },
+    {
+      "id": 5,
+      "first_name": "Rose",
+      "last_name": "Rodriguez",
+      "email": "rrodriguez4@vinaora.com",
+      "gender": "Agender",
+      "role_id": 3
+    },
+    {
+      "id": 6,
+      "first_name": "Sandy",
+      "last_name": "Larder",
+      "email": "elarder5@accuweather.com",
+      "gender": "Female",
+      "role_id": 1
+    },
+    {
+      "id": 7,
+      "first_name": "Lek",
+      "last_name": "Jerosch",
+      "email": "ljerosch6@macromedia.com",
+      "gender": "Female",
+      "role_id": 2
+    },
+    {
+      "id": 8,
+      "first_name": "Sherry",
+      "last_name": "Croley",
+      "email": "scroley7@abc.net.au",
+      "gender": "Bigender",
+      "role_id": 2
+    },
+    {
+      "id": 9,
+      "first_name": "Drew",
+      "last_name": "Cornelleau",
+      "email": "dcornelleau8@youtube.com",
+      "gender": "Agender",
+      "role_id": 1
+    },
+    {
+      "id": 10,
+      "first_name": "Georgeta",
+      "last_name": "Test",
+      "email": "gftessssttyn9@sohu.com",
+      "gender": "Genderqueer",
+      "role_id": 2
+    },
+    {
+      "id": 11,
+      "first_name": "Bernetta",
+      "last_name": "Bartosinski",
+      "email": "bbartosinskia@parallels.com",
+      "gender": "Non-binary",
+      "role_id": 1
+    },
+    {
+      "first_name": "Conraddddd",
+      "last_name": "Botterell",
+      "email": "cbotterellb@howstuffworks.com",
+      "role_id": 3,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "first_name": "Mella",
+      "last_name": "Schiersch",
+      "email": "mschierschc@reverbnation.com",
+      "gender": "Polygender",
+      "role_id": 2
+    },
+    {
+      "id": 14,
+      "first_name": "Skye",
+      "last_name": "Selland",
+      "email": "ssellandd@weather.com",
+      "gender": "Genderfluid",
+      "role_id": 2
+    },
+    {
+      "id": 15,
+      "first_name": "Erek",
+      "last_name": "Isgate",
+      "email": "eisgatee@theglobeandmail.com",
+      "gender": "Bigender",
+      "role_id": 1
+    },
+    {
+      "id": 16,
+      "first_name": "Valina",
+      "last_name": "Whitmell",
+      "email": "vwhitmellf@comsenz.com",
+      "gender": "Genderqueer",
+      "role_id": 3
+    },
+    {
+      "id": 17,
+      "first_name": "Germain",
+      "last_name": "Clewarth",
+      "email": "gclewarthg@bloglines.com",
+      "gender": "Female",
+      "role_id": 3
+    },
+    {
+      "id": 18,
+      "first_name": "Guinna",
+      "last_name": "Bannester",
+      "email": "gbannesterh@fotki.com",
+      "gender": "Genderfluid",
+      "role_id": 2
+    },
+    {
+      "id": 19,
+      "first_name": "Jilleen",
+      "last_name": "Pahl",
+      "email": "jpahli@ebay.co.uk",
+      "gender": "Genderfluid",
+      "role_id": 1
+    },
+    {
+      "id": 20,
+      "first_name": "Ortensia",
+      "last_name": "Hitcham",
+      "email": "ohitchamj@simplemachines.org",
+      "gender": "Agender",
+      "role_id": 1
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "Hitcham",
+      "email": "alexhitcham@simplemachines.org",
+      "gender": "Agender",
+      "role_id": 1,
+      "id": 21
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Manager"
+    },
+    {
+      "id": 2,
+      "name": "Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Intern"
+    }
+  ]
+}
