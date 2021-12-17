@@ -1,60 +1,42 @@
-**GET**
+# JSON Nedir?
+**J**ava**S**cript **O**bject **N**otation ifadesinin kısaltmasıdır. Veri depolamak veya veri iletmek için kullanılan metin tabanlı bir söz dizimi yapısıdır. Genellikle bir sunucu ve istemci arasında veri alışverişi için veya yazılımların genel ayarları için kullanılan bir formattır.
 
-- Verileri almak - listelemek için kullanılan istek metodudur.
-- [http://api.example.com/users](http://api.example.com/users)
-- [http://api.example.com/users/1](http://api.example.com/users/1)
+- Drupal/config.json
+- Node.js/package.json
+- [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 
-**POST**
+### **JSON Veri Tipleri**
 
-- Belirli bir kaynağa veri göndermek için kullanılır.
-- [http://api.example.com/users](http://api.example.com/users)
+- String: "Sample String", "test1234", "A"
+- Number: 7, 3.2, -97.238
+- Boolean: true, false
+- Null: null
+- Array: [2,3,5,7] , ["İstanbul", "Ankara", "İzmir"] Array içerisinde kullanılan değerler sıralı olarak listelenebilir.
+- Object { "name": "Alex", "age":23 } JSON nesneleri verileri key-value çiftleri olarak tanımlar.
 
-**PUT**
+Yukarıda görmüş olduğunuz veri tiplerinin tamamı tekil olarak uygun bir JSON formatı işlevini görür. Ancak tek bir `3`, `string` veya `true` gibi ifadeler için ayrı bir .json uzantılı dosya oluşturmak mantıklı değildir. Bu nedenle JSON doayaları bir array, nesne ve/veya bunların içiçe geçmiş formlarından oluşur.
 
-- Belirli bir kaynaktaki verinin tamamının değiştirilmesi için kullanılan metodtur.
-- [http://api.example.com/users/1](http://api.example.com/users/1)
-- `{ “name": "Gurcan", "age": 40}`
+### **Örnek :**
 
-**PATCH**
+### **movie.json**
 
-- Belirli bir kaynaktaki verilerin bir kısmının değiştirilmesi için kullanılan metodtur.
-- [http://api.example.com/users/1](http://api.example.com/users/1)
-- `{ "name": "Gurcan"}`
+```
+{
+    "id":1,
+    "title": "Sherlock Holmes",
+    "actors": ["Benedict Cumberbatch", "Martin Freeman"],
+    "published_year": 2010,
+    "genre": {
+      "id": 6,
+      "name": "Action"
+    },
+    "rating": 8
+}
 
-**DELETE**
+```
 
-- Belirli bir kaynaktaki verilerin silinmesi için kullanılan metodtur.
-- [http://api.example.com/users/1](http://api.example.com/users/1)
-
-**CONNECT - TRACE - OPTIONS - HEAD**
-
-### **SAFE Metotlar**
-
-GET – HEAD – OPTIONS : Sunucu “state” tarafında değişiklik oluşturmazlar. “Read-only” yapısındadırlar.
-
-### **IDEMPOTENT Metotlar**
-
-GET – HEAD - OPTIONS – DELETE – PUT – TRACE : Tekrar durumunda sunucu state yapısında herhangi bir yan etki bırakmazlar. Safe metodlar, idempotent'tır.
-
-## **Endpoint (Sorgu Adresi)**
-
-REST API kullanımında gönderilen istek ile verilen cevap için belirlenen buluşma noktasıdır.
-
-Root(Base) /Path yapısından oluşur, isimler kullanılır, fiil ilgili HTTP metodu ile belirtilir. Dökümantasyon tarafından belirtilir.
-
-- [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/) /posts
-
-Değişen değer için genelde (:) kullanılır.
-
-- [https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1) => /posts/:id veya /posts/{{id}}
-- [https://jsonplaceholder.typicode.com/posts/1/comments](https://jsonplaceholder.typicode.com/posts/1/comments)
-
-Sorgu parametreleri için (?) kullanılır.
-
-- Aslında sorgu parametreleri REST yapısının bir parçası değildir ancak sorgu adreslerinde sıkça rastlarız.
-- [http://example.com/articles?sort=author&date=published](http://example.com/articles?sort=author&date=published)
-
-
+JSON dosyasının uygun formatta olup olmadığını kontrol etmek için **JSONLINT** ( [https://jsonlint.com/](https://jsonlint.com/) ) gibi çevrimiçi araçlar kullanılabilir.
+# JSON - JavaScript - XML
 ### **JSON vs JavaScript**
 
 **JavaScript** web uygulamalarında sıklıkla kullanılan dinamik bir programlama dilidir. **JSON** ise bir söz dizim olarak JavaScript'in bir alt kümesi olarak düşünülebilir. Bu nedenle uygun JSON formatındaki bir içerik JavaScript ifadesine (expression) denk gelir.

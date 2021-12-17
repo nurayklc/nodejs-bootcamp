@@ -1,3 +1,4 @@
+# HTTP NEDİR?
 **H**yper **T**ext **T**ransfer **P**rotocol ifadesinin kısaltmasıdır. İstemci ile sunucu arasındaki veri akışının kurallarını belirleyen protokoldür. İstek – Cevap (request, response) modeline göre çalışır.
 
 ![https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/http-nedir/figures/HTTP.jpeg](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/http-nedir/figures/HTTP.jpeg)
@@ -69,13 +70,13 @@ Sunucu tarafından ilgili isteğin sonucunu belirten, 3 rakamdan oluşan sayısa
 
 - Belirli bir kaynaktaki verinin tamamının değiştirilmesi için kullanılan metodtur.
 - [http://api.example.com/users/1](http://api.example.com/users/1)
-- `{ “name": "Gurcan", "age": 40}`
+- `{ “name": "Alex", "age": 23}`
 
 **PATCH**
 
 - Belirli bir kaynaktaki verilerin bir kısmının değiştirilmesi için kullanılan metodtur.
 - [http://api.example.com/users/1](http://api.example.com/users/1)
-- `{ "name": "Gurcan"}`
+- `{ "name": "Alex"}`
 
 **DELETE**
 
