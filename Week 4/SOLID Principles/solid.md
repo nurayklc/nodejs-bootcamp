@@ -5,23 +5,25 @@ Yazılımda SOLID uygulandığı taktirde bakımı ve geliştirilmesi kolay yaz�
 SOLID prensipleri, bir yazılım geliştiricinin Nesne Yönelimli Programlama (OOP) ile yazılım geliştirirken, geliştirdiği yazılımın esnek ve geliştirilmeye uygun olması için uyması gereken kurallar bütünüdür. “Spaghetti Code” kodlar yerine, “Clean Code” yazmayı bu prensipler sağlamaktadır.
 
 Dünya standartlarında yazılım geliştirmemize olanak sağlayan bu prensipleri 5 ana başlıkta ele alabiliriz.
-**S**-Single Responsibility Principle
-**O**-Open/Closed Principle
-**L**-Liskov Substitution Principle
-**I**-Interface Segregation Principle
-**D**-Dependency Inversion Principle
+1. **S**-Single Responsibility Principle
+2. **O**-Open/Closed Principle
+3. **L**-Liskov Substitution Principle
+4. **I**-Interface Segregation Principle
+5. **D**-Dependency Inversion Principle
 
-- **Single Responsibility Principle**
+------
+
+### **Single Responsibility Principle**
 Her yazılım biriminin (sınıf, nesne, metot) tek bir sorumluluğu olmalıdır.
 
-- **Open/Closed Principle**
+### **Open/Closed Principle**
 Yazılım birimleri geliştirilmeye açık, değişikliğe kapalı olmalıdır.
 
-- **Liskov’s Substitution Principle** 
+### **Liskov’s Substitution Principle** 
 Alt sınıflardan oluşturulan nesneler üst sınıfların nesneleriyle yer değiştirdiklerinde aynı davranışı göstermek zorundadırlar.
 
-- **Interface Segregation Principle**
+### **Interface Segregation Principle**
 Herşeyi ihtiva eden interface sınıflar yerine belli bir işlemi yapan interface sınıflar oluşturulmalıdır.
 
-- **Dependency Inversion Principle**
+### **Dependency Inversion Principle**
 Bağımlılıklar soyut sınıflara doğru olmalıdır.
