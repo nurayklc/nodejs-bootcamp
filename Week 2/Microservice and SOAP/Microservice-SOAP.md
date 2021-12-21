@@ -65,6 +65,7 @@ Sunucu kaynakları yetersiz gelmeye başladığında veya veri tabanı, sorgular
 - Herhangi bir teknoloji ve dile ait bir kısıtlama yoktur.
 - Stateless yapılardır.
 - Kolay ölceklendirilme yapılır. (Yatay olarak ölçeklendirilir.)
+<img src="mono-micro.png"/>
 
 ### Avantajları
 - Çok dilli mimaridir.
