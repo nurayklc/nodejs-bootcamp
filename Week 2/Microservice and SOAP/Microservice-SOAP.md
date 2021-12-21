@@ -5,6 +5,7 @@ Sunucu Katmanları ana hatları ile şu şekilde olacaktır:
 - **Presentation Layer (Sunum Katmanı):** HTTP hizmetlerini yerine getirmekten ve mesaj formatı HTML, JSON ya da XML gibi notasyonlar ile sağlanan mesajlaşmadan sorumludur.
 - **Business Layer (İş Katmanı):** Uygulamanın iskeletidir. Akış ve koordinasyondan sorumludur.
 - **Database Access Layer (Veri Tabanı Katmanı):** Uygulamanın veri tabanına bağlandığı ve veri tabanı işlemlerinin yapıldığı katmandır.
+<img src="mono-vs-micro.png"/>
 
 ### Monolotik Mimaride Ölçeklendirme 
 Sunucu kaynakları yetersiz gelmeye başladığında veya veri tabanı, sorgulara isteklere yetişememeye başladığında monolotik mimaride ölçeklendirmeye gidilir.
@@ -37,6 +38,7 @@ Sunucu kaynakları yetersiz gelmeye başladığında veya veri tabanı, sorgular
     - Bakım (Maintainability)
 - SOA'nın kendi içerisinde kurduğu veya dış bağlantılar için kurduğu iletişimde web servisler (SOAP,WDSL) kullanır.
 - Enterprise Bus Service(EBS) client tarafından gelen isteği kontrol ederek SOA ile iletişim kuran katmandır.
+<img src="soa-vs-microservices.png"/>
 
 ### Avantajları 
 - Servisler tekrar kullanılabilir.
