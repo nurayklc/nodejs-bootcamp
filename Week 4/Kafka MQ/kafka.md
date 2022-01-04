@@ -60,7 +60,7 @@
 > Customer Group Queue gibi davranması isteniyorsa;
 * Tüm Consumer'ları bir grup içerisinde tutmalıdır. (Aşağıdaki örnekte olduğu gibi) 
 
-![customer-group-queue](queue.png)
+![customer-group-queue](queue.PNG)
 
 > Customer Group Pub/Sub gibi davranması isteniyorsa;
 * Her bir Consumer'ı kendine ait başka bir Consumer Group içine aktarılmalıdır. (Aşağıdaki örnekte olduğu gibi) 
@@ -77,4 +77,4 @@ Sürekli Kafka Broker'a bağlı çalışan bir model olarak düşünülebilir.
 
 
 ### Kaynaklar
-* [Kablosuz Kedi Kafka Videosu](https://www.youtube.com/watch?v=ZphPT3r6fnU&t=1060s&ab_channel=kablosuzkedi)
+* [Kablosuz Kedi Apache Kafka Videosu](https://www.youtube.com/watch?v=ZphPT3r6fnU&t=1060s&ab_channel=kablosuzkedi)
